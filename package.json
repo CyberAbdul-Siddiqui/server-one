@@ -1,0 +1,19 @@
+{
+  "name": "serverone",
+  "version": "1.0.0",
+  "description": "This is a first server yet to be deployed june 18",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "zuheb siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
