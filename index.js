@@ -43,6 +43,8 @@ const githubData = {
   updated_at: "2025-06-18T14:03:29Z",
 };
 
+const PORT = process.env.PORT;
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
@@ -61,6 +63,6 @@ app.get("/github", (req, res) => {
   res.json(githubData);
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`);
 });
